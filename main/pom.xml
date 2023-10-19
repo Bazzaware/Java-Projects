@@ -12,11 +12,6 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
-    <packaging>pom</packaging>
-    <modules>
-        <module>../member-a</module>
-        <module>../member-b</module>
-    </modules>
 
   <dependencies>
     <dependency>
