@@ -12,8 +12,6 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
-    <name>Main</name>
-    <description>Main Application</description>
     <packaging>pom</packaging>
     <modules>
         <module>../member-a</module>
