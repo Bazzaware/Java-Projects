@@ -12,9 +12,9 @@
         },
         {
             "type": "java",
-            "name": "Main Application",
+            "name": "Main",
             "request": "launch",
-            "mainClass": "com.example.Main",
+            "mainClass": "com.bazzaware.main.Main",
             "projectName": "main"
         }
     ]
