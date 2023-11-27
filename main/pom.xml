@@ -45,6 +45,40 @@
         <maven.compiler.target>17</maven.compiler.target>
         <exec.mainClass>com.bazzaware.main.Main</exec.mainClass>
     </properties>
+    <dependencies>
+        <!-- Supporting projects start  -->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>member-a</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>member-b</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <!-- Supporting projects end  -->
+        <!-- Junit 5 Testing  -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.9.3</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.9.3</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- This is needed only if you are doing parameterised tests -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.9.3</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
     <build>
         <pluginManagement>
             <plugins>
